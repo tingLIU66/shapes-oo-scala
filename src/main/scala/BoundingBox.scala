@@ -1,4 +1,4 @@
-package edu.luc.cs.laufer.cs473.shapes
+package edu.luc.cs.laufer.cs372.shapes
 
 object BoundingBox {
   def boundingBox(s: Shape): Location = s match {
