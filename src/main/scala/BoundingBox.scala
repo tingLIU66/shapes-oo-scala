@@ -1,7 +1,7 @@
 package edu.luc.cs.laufer.cs372.shapes
 
-object BoundingBox {
-  def boundingBox(s: Shape): Location = s match {
+object boundingBox {
+  def apply(s: Shape): Location = s match {
     case Rectangle(_, _) =>
       new Location(0, 0, s)
     case Location(x, y, shape) => {
