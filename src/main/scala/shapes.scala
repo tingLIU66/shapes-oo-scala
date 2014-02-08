@@ -1,5 +1,8 @@
 package edu.luc.cs.laufer.cs372.shapes
 
+/**
+ * data Shape = Rectangle(w, h) | Location(x, y, Shape)
+ */
 sealed trait Shape
 
 case class Rectangle(width: Int, height: Int) extends Shape
